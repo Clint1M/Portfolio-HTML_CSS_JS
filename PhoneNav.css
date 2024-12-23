@@ -50,6 +50,7 @@ div.fi a, button{
     display: flex;
     flex-direction: column;
     height: 100%;
+    transition: 0.3s ease;
 }
 div.fi, button{
     font-size: 100%;
@@ -73,6 +74,7 @@ div ul.Sdrop li a{
     justify-content: center;
     height: 0px;
     overflow: hidden;
+    transition: 0.3s ease;
 }
 div ul.Sdropdown li a {
     padding-top: 20px;
@@ -82,9 +84,11 @@ div ul.Sdropdown li a {
     display: flex;
     justify-content: center;
     height: 10vh;
+    transition: 0.3s ease;
 }
 .Sdropdown{
     list-style: none;
+    transition: 0.3s ease;
 }
 div.fi, button{
     font-weight: 1000;
