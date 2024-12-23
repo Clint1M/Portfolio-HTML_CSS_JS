@@ -1,0 +1,94 @@
+﻿@import url(https://fonts.googleapis.com/css2?family=Poppins%3Awght%40100%3B200%3B300%3B400%3B500%3B600&display=swap%27%29%3B);
+
+* {
+    border: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    font-size: 120%
+}
+
+body {
+    height: 100%;
+    background-color: black;
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+div{
+    height: 100%;
+    border: 2px solid;
+    width: 98%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 8%;
+    padding-top: 5%;
+}
+div.fi{
+    padding-bottom: 5%;
+}
+div.fi a, button{
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
+.Sdrop{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+div.fi, button{
+    font-size: 100%;
+}
+div.fi a:hover, button:hover{
+     color: #b74b4b;
+     border-bottom: 3px solid #b74b4b;
+     cursor: pointer; 
+}
+div a:hover {
+    background-color: none;
+    border-bottom: 3px solid #b74b4b;
+    cursor: pointer;
+}
+div ul.Sdrop li a{
+    padding-top: 10%;
+    color: #00ffff;
+    border: 0px solid;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 0px;
+    overflow: hidden;
+}
+div ul.Sdropdown li a {
+    padding-top: 20px;
+    color: #00ffff;
+    border: 0px solid;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 10vh;
+}
+.Sdropdown{
+    list-style: none;
+}
+div.fi, button{
+    font-weight: 1000;
+}
+div ul li a:hover{
+    color: #4cff00;
+}
