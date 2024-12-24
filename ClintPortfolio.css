@@ -1,4 +1,4 @@
-﻿@import url(https://fonts.googleapis.com/css2?family=Poppins%3Awght%40100%3B200%3B300%3B400%3B500%3B600&display=swap%27%29%3B);
+@import url(https://fonts.googleapis.com/css2?family=Poppins%3Awght%40100%3B200%3B300%3B400%3B500%3B600&display=swap%27%29%3B);
 
 *{
      border: none;
@@ -40,6 +40,7 @@
      font-weight: 800;
      cursor: pointer;
      transition: 0.5s ease;
+     border-radius: 2rem;
  }
  .logo:hover{
      transform: scale(1:1);
@@ -319,4 +320,10 @@ phOption{
     phOption{
         display: block;
     }
+}
+.logo:hover {
+    background-color: #b74b4b;
+    border-width: 200px;
+    color: black;
+    box-shadow: 0 0 25px #b74b4b;
 }
