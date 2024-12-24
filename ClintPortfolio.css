@@ -205,20 +205,25 @@
      }
  }
 @keyframes words{
-    0%, 20%{
+    0%, 20% {
         content: "Web Developer";
+        overflow-x: hidden;
     }
-    21%, 40%{
+    21%, 40% {
         content: "Software Developer";
+        overflow-x: hidden;
     }
-    41%, 60%{
+    41%, 60% {
         content: "Flexible Developer";
+        overflow-x: hidden;
     }
-    61%, 80%{
+    61%, 80% {
         content: "Problem Solver";
+        overflow-x: hidden;
     }
-    81%, 100%{
+    81%, 100% {
         content: "Debugger";
+        overflow-x: hidden;
     }
 }
 
