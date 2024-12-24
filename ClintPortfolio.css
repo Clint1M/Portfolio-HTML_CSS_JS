@@ -242,6 +242,16 @@
         width: 70vw;
         margin-top: 4rem;
     }
+    .home-content .social-icons a{
+        margin: 3vw;
+    }
+    .home-content .tx{
+        padding-top: 20px;
+    }
+    .home-content .social-icons{
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
 }
 
 ul{
