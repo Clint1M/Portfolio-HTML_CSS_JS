@@ -100,7 +100,6 @@
  section{
      min-height: 100vh;
      padding: 5rem 9% 5rem;
-     overflow-x: hidden;
  }
  .home{
      display: flex;
