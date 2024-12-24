@@ -102,14 +102,13 @@
      padding: 5rem 9% 5rem;
      overflow-x: hidden;
  }
-.home {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 8rem;
-    background-color: black;
-    overflow-x: hidden;
-}
+ .home{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     gap: 8rem;
+     background-color: black;
+ }
  .home .home-content h1{
      font-size: 6rem;
      font-weight: 700;
