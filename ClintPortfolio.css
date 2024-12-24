@@ -330,7 +330,6 @@ phOption{
 @media(max-width:995px){
     phOption{
         display: block;
-        padding-left: 10px;
     }
     body{
         overflow-x: hidden;
