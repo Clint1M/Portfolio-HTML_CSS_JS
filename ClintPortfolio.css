@@ -8,9 +8,11 @@
      text-decoration: none;
      outline: none;
      font-family: 'Poppins', sans-serif;
+     overflow-x: hidden;
  }
  html{
-     font-size: 62.5%
+     font-size: 62.5%;
+     overflow-x: hidden;
  }
  body{
      width: 100%;
@@ -18,6 +20,7 @@
      overflow-x: hidden;
      background-color: black;
      color: white;
+     overflow-x: hidden;
  }
  header{
      margin-top: 20px;
@@ -97,14 +100,16 @@
  section{
      min-height: 100vh;
      padding: 5rem 9% 5rem;
+     overflow-x: hidden;
  }
- .home{
-     display: flex;
-     justify-content: center;
-     align-items: center;
-     gap: 8rem;
-     background-color: black;
- }
+.home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8rem;
+    background-color: black;
+    overflow-x: hidden;
+}
  .home .home-content h1{
      font-size: 6rem;
      font-weight: 700;
@@ -205,25 +210,20 @@
      }
  }
 @keyframes words{
-    0%, 20% {
+    0%, 20%{
         content: "Web Developer";
-        overflow-x: hidden;
     }
-    21%, 40% {
+    21%, 40%{
         content: "Software Developer";
-        overflow-x: hidden;
     }
-    41%, 60% {
+    41%, 60%{
         content: "Flexible Developer";
-        overflow-x: hidden;
     }
-    61%, 80% {
+    61%, 80%{
         content: "Problem Solver";
-        overflow-x: hidden;
     }
-    81%, 100% {
+    81%, 100%{
         content: "Debugger";
-        overflow-x: hidden;
     }
 }
 
