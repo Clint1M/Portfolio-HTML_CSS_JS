@@ -331,6 +331,9 @@ phOption{
         display: block;
         padding-left: 10px;
     }
+    body{
+        overflow-x: hidden;
+    }
 }
 .logo:hover {
     background-color: #b74b4b;
