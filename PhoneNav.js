@@ -1,11 +1,19 @@
 const SnavTwo = document.getElementById('SibTwo')
 SnavTwo.addEventListener("click", dropiNG)
-let sState = false
+let sState = true
 function dropiNG() {
     switch (sState) {
         case true:
             document.getElementById("SuiTwo").className = "Sdropdown";
+            document.getElementById("SuiThree").className = "Sdrop";
+            document.getElementById("SuiFour").className = "Sdrop";
+            document.getElementById("SuiFive").className = "Sdrop";
+            document.getElementById("SuiSix").className = "Sdrop";
             sState = false;
+            sStateThree = true;
+            sStateFour = true;
+            sStateFive = true;
+            sStateSix = true;
             break;
         case false:
             document.getElementById("SuiTwo").className = "Sdrop";
@@ -15,12 +23,20 @@ function dropiNG() {
 }
 const SnavThree = document.getElementById('SibThree')
 SnavThree.addEventListener("click", dropiNGThree)
-let sStateThree = false
+let sStateThree = true
 function dropiNGThree() {
     switch (sStateThree) {
         case true:
+            document.getElementById("SuiTwo").className = "Sdrop";
             document.getElementById("SuiThree").className = "Sdropdown";
+            document.getElementById("SuiFour").className = "Sdrop";
+            document.getElementById("SuiFive").className = "Sdrop";
+            document.getElementById("SuiSix").className = "Sdrop";
+            sState = true;
             sStateThree = false;
+            sStateFour = true;
+            sStateFive = true;
+            sStateSix = true;
             break;
         case false:
             document.getElementById("SuiThree").className = "Sdrop";
@@ -30,12 +46,20 @@ function dropiNGThree() {
 }
 const SnavFour = document.getElementById('SibFour')
 SnavFour.addEventListener("click", dropiNGFour)
-let sStateFour = false
+let sStateFour = true
 function dropiNGFour() {
     switch (sStateFour) {
         case true:
+            document.getElementById("SuiTwo").className = "Sdrop";
+            document.getElementById("SuiThree").className = "Sdrop";
             document.getElementById("SuiFour").className = "Sdropdown";
+            document.getElementById("SuiFive").className = "Sdrop";
+            document.getElementById("SuiSix").className = "Sdrop";
+            sState = true;
+            sStateThree = true;
             sStateFour = false;
+            sStateFive = true;
+            sStateSix = true;
             break;
         case false:
             document.getElementById("SuiFour").className = "Sdrop";
@@ -45,12 +69,20 @@ function dropiNGFour() {
 }
 const SnavFive = document.getElementById('SibFive')
 SnavFive.addEventListener("click", dropiNGFive)
-let sStateFive = false
+let sStateFive = true
 function dropiNGFive() {
     switch (sStateFive) {
         case true:
-            document.getElementById("SuiFive").className = "Sdropdown"
+            document.getElementById("SuiTwo").className = "Sdrop";
+            document.getElementById("SuiThree").className = "Sdrop";
+            document.getElementById("SuiFour").className = "Sdrop"
+            document.getElementById("SuiFive").className = "Sdropdown";
+            document.getElementById("SuiSix").className = "Sdrop";
+            sState = true;
+            sStateThree = true;
+            sStateFour = true;
             sStateFive = false;
+            sStateSix = true;
             break;
         case false:
             document.getElementById("SuiFive").className = "Sdrop"
@@ -60,11 +92,19 @@ function dropiNGFive() {
 }
 const SnavSix = document.getElementById('SibSix')
 SnavSix.addEventListener("click", dropiNGSix)
-let sStateSix = false;
+let sStateSix = true;
 function dropiNGSix() {
     switch (sStateSix) {
         case true:
-            document.getElementById("SuiSix").className = "Sdropdown"
+            document.getElementById("SuiTwo").className = "Sdrop";
+            document.getElementById("SuiThree").className = "Sdrop";
+            document.getElementById("SuiFour").className = "Sdrop";
+            document.getElementById("SuiFive").className = "Sdrop";
+            document.getElementById("SuiSix").className = "Sdropdown";
+            sState = true;
+            sStateThree = true;
+            sStateFour = true;
+            sStateFive = true;
             sStateSix = false;
             break;
         case false:
