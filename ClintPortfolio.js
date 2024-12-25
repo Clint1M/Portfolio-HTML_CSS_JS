@@ -10,6 +10,10 @@ function dropiT() {
             document.getElementById("uiFive").className = "drop";
             document.getElementById("uiSix").className = "drop";
             state = false;
+            stateTwo = true;
+            stateThree = true;
+            stateFour = true;
+            stateFive = true;
             break;
         case false:
             document.getElementById("uiTwo").className = "drop";
@@ -28,7 +32,11 @@ function dropiTTwo() {
             document.getElementById("uiFour").className = "drop";
             document.getElementById("uiFive").className = "drop";
             document.getElementById("uiSix").className = "drop";
+            state = true;
             stateTwo = false;
+            stateThree = true;
+            stateFour = true;
+            stateFive = true;
             break;
         case false:
             document.getElementById("uiThree").className = "drop";
@@ -47,7 +55,11 @@ function dropiTThree() {
             document.getElementById("uiFour").className = "dropdown";
             document.getElementById("uiFive").className = "drop";
             document.getElementById("uiSix").className = "drop";
+            state = true;
+            stateTwo = true;
             stateThree = false;
+            stateFour = true;
+            stateFive = true;
             break;
         case false:
             document.getElementById("uiFour").className = "drop";
@@ -66,7 +78,11 @@ function dropiTFour() {
             document.getElementById("uiFour").className = "drop";
             document.getElementById("uiFive").className = "dropdown";
             document.getElementById("uiSix").className = "drop";
+            state = true;
+            stateTwo = true;
+            stateThree = true;
             stateFour = false;
+            stateFive = true;
             break;
         case false:
             document.getElementById("uiFive").className = "drop";
@@ -85,6 +101,10 @@ function dropiTFive() {
             document.getElementById("uiFour").className = "drop";
             document.getElementById("uiFive").className = "drop";
             document.getElementById("uiSix").className = "dropdown";
+            state = true;
+            stateTwo = true;
+            stateThree = true;
+            stateFour = true;
             stateFive = false;
             break;
         case false:
