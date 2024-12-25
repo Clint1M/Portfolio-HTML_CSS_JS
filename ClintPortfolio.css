@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css2?family=Poppins%3Awght%40100%3B200%3B300%3B400%3B500%3B600&display=swap%27%29%3B);
+    @import url(https://fonts.googleapis.com/css2?family=Poppins%3Awght%40100%3B200%3B300%3B400%3B500%3B600&display=swap%27%29%3B);
 
 *{
      border: none;
@@ -288,7 +288,7 @@ ul li ul.dropdown{
     position: absolute;
     z-index: 999;
     border-radius: 1rem;
-    transition: 0.3s ease;
+    transition: 0.1s ease;
     height: 0px;
 
     display: grid;
@@ -297,6 +297,7 @@ ul li ul.dropdown{
 ul li ul.dropdown li a{
     opacity: 1;
     transition: 0.3s ease;
+    overflow: hidden;
 }
 ul.drop ul.drop{
     overflow: hidden;
@@ -310,11 +311,12 @@ ul.drop ul.drop{
     position: absolute;
     z-index: 999;
     border-radius: 1rem;
-    transition: 0.3s ease;
+    transition: 0.4s ease;
     height: 0px;
 
     display: grid;
     height: 0px;
+    width: 100%;
 }
 ul.drop ul.drop li a{
 
