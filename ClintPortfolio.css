@@ -292,7 +292,7 @@ ul li ul.dropdown{
     height: 0px;
 
     display: grid;
-    height: 350px;
+    height: 450px;
 }
 ul li ul.dropdown li a{
     opacity: 1;
